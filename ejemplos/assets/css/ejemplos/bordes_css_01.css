@@ -1,0 +1,174 @@
+table.gridtable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+table.gridtable th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #dedede;
+}
+table.gridtable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+}
+
+/*Modelo de cajas*/
+.mi-caja { 
+	width: 300px; 
+	height: 100px; 
+	margin: 10px; 
+	padding: 10px; 
+	border: 10px solid #000000; 
+  }
+
+  /*Ancho de cajas*/
+  .ancho-fijo {   
+	height: 100px;   
+	width: 200px;   
+	background-color: lightblue;   
+	float: left;   
+ }   
+ .padre {   
+	height: 150px;   
+	width: 250px;   
+	float: left;   
+	background-color: lightgreen;   
+	margin: 0 0 0 20px;   
+ }   
+ .hijo {   
+	height: 50px;   
+	width: 50%;   
+	background-color: white;   
+	margin-right: auto;   
+	margin-left: auto;   
+ } 
+
+ /*Desbordamiento de contenido*/
+ #caja-1 {   
+	width: 350px;   
+	height: 200px;   
+	border: 1px solid #333;   
+	padding: 0;   
+	overflow-y: scroll;   
+	margin-bottom: 30px;   
+ }   
+ #caja-2 {   
+	width: 350px;   
+	height: 200px;   
+	border: 1px solid #333;   
+	padding: 0;   
+	overflow-x: scroll;   
+	white-space: nowrap;   
+ }   
+ .sin-margen {   
+	margin: 0;   
+ }  
+
+ /*Visualización en Bloque*/
+ .caja1 {   
+	width: 350px;   
+	border: 1px solid #333;   
+	padding: 10px;   
+	margin: 10px 10px;   
+ }
+
+ .caja2 {   
+	width: 450px;   
+	border: 2px solid #555;   
+	padding: 20px;   
+	margin: 20px 20px;   
+ } 
+
+ /*Visulización en línea*/
+ .cajalinea {   
+	width: 560px;   
+	border: 1px solid #333;   
+	padding: 10px;   
+	margin: 10px 10px;   
+ }
+ 
+ .extractolinea { 
+	border: 1px solid #333; 
+	background-color: lightgreen; 
+ }
+
+ /*Bordes*/
+
+.borderexaple {
+	display: inline;
+	margin: 10px;
+}
+ .boderstyledashed {
+	 border-style: dashed;
+ }
+ .borderstyledotted {
+	 border-style: dotted;
+ }
+
+ .borderstyleridge {
+	 border-style: ridge;
+ }
+
+ .borderwidththin {
+	border-width: thin;
+ }
+ .borderwidththick {
+	border-width: thick;
+ }
+ .borderwidthmedium {
+	border-width: medium;
+ }
+
+ .bordercolorkhaki{
+	 border-color: khaki;
+ }
+
+ .bordercolorlightcoral{
+	border-color:lightcoral;
+}
+
+.bordercolorlightskyblue{
+	border-color: lightskyblue;
+}
+
+.bordergenericdouble {
+	border: 3px double #333;
+}
+
+.bordergenericdotted {
+	border: 3px dotted yellow;
+}
+
+.bordergenericthick {
+	border: 3px thick orange;
+}
+
+.borderfantasia {   
+	width: 300px;   
+	border: 10px solid transparent;
+	padding: 15px;
+	border-width: 30px;
+	border-image: url("../img/border.png") 30 round;
+ } 
+
+ .esquinas-iguales {   
+	width: 300px;   
+	padding: 10px;   
+	border: 1px solid #333;   
+	border-radius: 10px;   
+ }   
+ .esquinas-diferentes {   
+	width: 300px;   
+	padding: 10px;   
+	border: 1px solid #333;   
+	border-radius: 10px 20px 20px 40px;   
+ } 
