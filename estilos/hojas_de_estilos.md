@@ -1,10 +1,10 @@
-
+[Índice](../readme.md) / [Anterior](../readme.md) / [Siguiente](../estilos/selectores_css.md)
 
 # Hojas de Estilos CSS
 
-Las hojas de estilos CSS, (_Cascading Style Sheets_), permiten formatear el contenido de los elementos HTML.
+Las hojas de estilos CSS, (_Cascading Style Sheets_) son archivos de texto comunes con la extensión **.css** y permiten definir el formato y estructura de un página web.
 
-Con CSS se puede:
+Con CSS puedes lograr lo siguiente:
 
 - **Dar formato a los textos**: Por ejemplo, con la aplicación de un color, el cambio de mayúsculas/minúsculas de los caracteres, el resaltado de los párrafos de texto con el formato del interlineado o la indentación de primera línea, etc.
 

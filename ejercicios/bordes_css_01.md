@@ -2,7 +2,7 @@
 
 # Ejercicios sobre Bordes CSS
 
-Para estos ejercicios puedes utilizar como ejemplo y base el archivo [bordes_css_01.html](../ejemplos/bordes_css_01.html)
+Para estos ejercicios puedes utilizar como ejemplo y base el archivo [bordes_css_01.html](../bordes/bordes_css_01.html)
 
 Realiza los siguientes ejercicios.
 
