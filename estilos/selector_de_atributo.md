@@ -1,8 +1,8 @@
-[Índice](../readme.md) / [Anterior](../estilos/selector_universal.md) / [Siguiente](../estilos/selectores_css.md)
+[Índice General](../readme.md) / [Índice Sección](../estilos/selectores_css.md) / [Anterior](../estilos/selector_universal.md) / [Siguiente](../estilos/selectores_css.md)
 
 # Selector de atributo:
 
-Los selectores de atributo selecciona elementos basándose en el valor de un determinado atributo.
+Los selectores de atributo seleccionan elementos basándose en el valor de un determinado atributo.
 
 ```
 |-----------|---------------------------------------------------------------------------------------------------|

@@ -1,4 +1,4 @@
-[Índice](../readme.md) / [Anterior](../estilos/selectores_css.md) / [Siguiente](../estilos/selector_de_clase.md)
+[Índice General](../readme.md) / [Índice Sección](../estilos/selectores_css.md) / [Anterior](../estilos/selectores_css.md) / [Siguiente](../estilos/selector_de_clase.md)
 
 # Selector de tipo:
 

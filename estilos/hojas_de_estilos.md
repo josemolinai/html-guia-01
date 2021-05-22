@@ -1,4 +1,4 @@
-[Índice](../readme.md) / [Anterior](../readme.md) / [Siguiente](../estilos/selectores_css.md)
+[Índice General](../readme.md) / [Índice Sección](../estilos/hojas_de_estilos.md) / [Anterior](../estilos/selectores_css.md) / [Siguiente](../estilos/selectores_css.md)
 
 # Hojas de Estilos CSS
 

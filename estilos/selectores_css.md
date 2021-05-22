@@ -1,4 +1,4 @@
-[Índice](../readme.md) / [Anterior](../estilos/hojas_de_estilos.md) / [Siguiente](../estilos/selector_de_tipo.md)
+[Índice General](../readme.md) / [Índice Sección](../estilos/selectores_css.md) / [Anterior](../estilos/hojas_de_estilos.md) / [Siguiente](../estilos/selector_de_tipo.md)
 
 # Selectores en la hojas de estilos CSS
 

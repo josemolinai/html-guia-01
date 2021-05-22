@@ -1,4 +1,4 @@
-[Índice](../readme.md) / [Anterior](../readme.md) / [Siguiente](../css/bordes_css.md)
+[Índice General](../readme.md) / [Índice Sección](../bordes/bordes_css.md) / [Anterior](../readme.md) / [Siguiente](../css/bordes_css.md)
 
 # Bordes CSS
 
