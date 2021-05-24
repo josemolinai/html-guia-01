@@ -1,0 +1,88 @@
+/*Selector universal*/
+
+* {
+    background-color: white;
+}
+
+
+/*Selecto de ID*/
+
+#tituloCitas {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/*Selector de tipo*/
+
+p {
+    color: black;
+    font-size: medium;
+}
+
+
+/*Selector de atributo*/
+
+[id] {
+    font-size: medium;
+}
+
+
+/*Selector de clase*/
+
+.cita {
+    clear: left;
+    padding: 3px;
+    border: 2px dotted black;
+    overflow: auto;
+    margin-bottom: 5px;
+}
+
+
+/*Selector de tipo*/
+
+img {
+    margin-left: 2px;
+    margin-right: 5px;
+}
+
+
+/*Selector de clase*/
+
+.color1 {
+    color: black;
+}
+
+
+/*Selector de clase*/
+
+.color2 {
+    color: brown;
+}
+
+
+/*Selector de clase*/
+
+.color3 {
+    color: white;
+}
+
+
+/*Selector de clase*/
+
+.fondo1 {
+    background-color: coral;
+}
+
+
+/*Selector de clase*/
+
+.fondo2 {
+    background-color: cornsilk;
+}
+
+
+/*Selector de clase*/
+
+.fondo3 {
+    background-color: darkgray;
+}

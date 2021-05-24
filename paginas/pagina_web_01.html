@@ -1,0 +1,109 @@
+<!--La doctype html permite indicar que este archivo es un documento HTML -->
+<!doctype html>
+
+<!--El atributo lang de la etiqueta html permite indicar al navegador que la página web está escrita en español-->
+<html lang="es">
+
+<!--La etiqueta head permite
+
+    1. Incluir meta información de la página con la etiqueta <meta>
+    2. Indica el título de la página con la etiqueta <title>
+    3. Definir estilos css de página con la etiqueta <style>
+    4. Cargar hojas de estilos externa con la etiqueta <link>    
+-->
+
+<head>
+    <!--El atributo charset de la etiqueta meta permite definir el juego de caracteres, esto permite al navegador enteder el texto de la página web-->
+    <meta charset="utf-8">
+
+    <!--La etiqueta title define el título que muestra el navegador web en la pestaña-->
+    <title>Página Web</title>
+
+    <!--Definiendo estilos en la página html-->
+
+    <!--El navegador intentará ocupar los estilos de fuente "Times New Roman", Times o serif, o en útlimo caso ocupará el estilo de fuente por defecto-->
+    <style type="css">
+        .font1 { font-family: "Times New Roman", Times, serif; }
+    </style>
+
+    <!--El navegador intentará ocupar los estilos de fuente Arial, Helvetica, sans-serif, o en útlimo caso ocupará el estilo de fuente por defecto-->
+    <style type="css">
+        .font2 { font-family: Arial, Helvetica, sans-serif; }
+    </style>
+
+    <!--El navegador intentará ocupar los estilos de fuente "Lucida Console", "Courier New", monospace, o en útlimo caso ocupará el estilo de fuente por defecto-->
+    <style type="css">
+        .font3 { font-family: "Lucida Console", "Courier New", monospace; }
+    </style>
+
+    <!--Cargando estilos definido en un archivo css-->
+    <link href="css/pagina_web_01.css" rel="stylesheet">
+</head>
+
+<!--La etiqueta body cotiene el contenido de la página HTML -->
+
+<body>
+    <!--Las etiquesta h1,h2,h3,h4 y h5 permiten definir cabeceras en el documento web-->
+    <h1>Página Web</h1>
+
+    <h2 id="tituloCitas">Citas famosas</h2>
+
+
+    <!--La etiqueta div actua como un contenedor de elementos HTML-->
+    <!--Definiendo una clase para el elemento HTML class="cita" -->
+    <div class="cita">
+
+        <!--Definiendo estilos directamente en el elemento html-->
+        <img style="float:left;width:150px;" src="img/Lao-Tse.jpg">
+        <!--float:left;
+            Establece que la imagen flote hacia la izquierda, lo que provoca que los textos siguientes queden a su derecha
+        -->
+        <div>
+            <h3>Lao Tsé</h3>
+            <!--La etiqueta <p> permite escribir páttafos de texto en el documento HTML-->
+            <!--Definiendo una lista de clases para elemento HTML class="font1 fondo1 color1" -->
+            <p class="font1 fondo1 color1">No hay que ir para atrás ni para darse impulso</p>
+            <p class="font1 fondo2 color2">No hay que ir para atrás ni para darse impulso</p>
+            <p class="font1 fondo3 color3">No hay que ir para atrás ni para darse impulso</p>
+        </div>
+    </div>
+
+    <!--Definiendo una clase para el elemento HTML class="cita" -->
+    <div class="cita">
+        <!--Definiendo estilos directamente en el elemento html-->
+        <img style="float:left;width:150px;" src="img/Mahatma-Gandh_2.jpg">
+        <!--float:left;
+            Establece que la imagen flote hacia la izquierda, lo que provoca que los textos siguientes queden a su derecha
+        -->
+        <div>
+            <h3>Mahatma Gandhi</h3>
+            <!--La etiqueta <p> permite escribir páttafos de texto en el documento HTML-->
+            <!--Definiendo una lista de clases para elemento HTML class="font1 fondo1 color1" -->
+            <p class="font2 fondo1 color1">No hay caminos para la paz; la paz es el camino</p>
+            <p class="font2 fondo2 color2">No hay caminos para la paz; la paz es el camino</p>
+            <p class="font2 fondo3 color3">No hay caminos para la paz; la paz es el camino</p>
+        </div>
+
+    </div>
+
+
+    <!--Definiendo una clase para el elemento HTML class="cita" -->
+    <div class="cita">
+        <!--Definiendo estilos directamente en el elemento html-->
+        <img style="float:left;width:150px;" src="img/John_Lennon.jpg">
+        <!--float:left;
+            Establece que la imagen flote hacia la izquierda, lo que provoca que los textos siguientes queden a su derecha
+        -->
+        <div>
+            <h3>John Lennon</h3>
+            <!--La etiqueta <p> permite escribir páttafos de texto en el documento HTML-->
+            <!--Definiendo una lista de clases para elemento HTML class="font1 fondo1 color1" -->
+            <p class="font3 fondo1 color1">Haz el amor y no la guerra</p>
+            <p class="font3 fondo2 color2">Haz el amor y no la guerra</p>
+            <p class="font3 fondo3 color3">Haz el amor y no la guerra</p>
+        </div>
+
+    </div>
+</body>
+
+</html>
